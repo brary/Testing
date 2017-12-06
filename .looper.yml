@@ -1,3 +1,6 @@
+tools:
+  jdk: 8
 flows:
   default:
-    - echo "hello looper!"
+    - java -version
+    - echo "JAVA_HOME=$JAVA_HOME"
